@@ -1,6 +1,7 @@
 {
   "routes": [
     { "handle": "filesystem" },
+    { "src": "/open-source/tailwind-datatable/:match*", "dest": "/:match*" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
